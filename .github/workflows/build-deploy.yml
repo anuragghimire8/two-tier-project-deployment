@@ -31,7 +31,7 @@ jobs:
     - name: Build and Push Backend
       run: |
         BRANCH_NAME=${{ github.ref_name }}
-        docker build -t backend-app -f ./dockerfile .
+        docker build -t backend-app .
         docker tag backend-app:latest ${{ secrets.ECR_REPOSITORY_URI }}/backend-app:$BRANCH_NAME
         docker push ${{ secrets.ECR_REPOSITORY_URI }}/backend-app:$BRANCH_NAME
 
