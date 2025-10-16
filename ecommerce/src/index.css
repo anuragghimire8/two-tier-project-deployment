@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* //navbar css */
+.navbar-expand-lg .navbar-collapse {
+    background-color: cadetblue;
+    /* display: flex!important; */
+    flex-basis: auto;
+    border-radius: 20px;
+}
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  background-color:cadetblue !important;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-radius: 30px;
+  color: #ffffff !important ;
+  border-bottom: solid gray !important;
+}
+
+.nav-link {
+  font-family: inherit;
+    font-size: small;
+    color: black;
+    font-weight: 700 !important;
+}
+
+.active {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+.search-form {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.search-form input {
+  border: none;
+  border-radius: 0;
+}
+.search-form button {
+  background-color: #000000;
+  border-radius: 0;
+  color: white;
+}
+
+/* =============================
+==========footer============= */
+
+.footer {
+  height: 130px;
+    color: white;
+    padding: 25px;
+    background: #000000;
+    background-color: #3a8587 !important;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #df0d6f;
+  border-bottom: 1px solid #ffefba;
+}
+/* =================================
+======== page not found css ======= */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  margin-top: 60px;
+
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: rgb(255, 255, 255);
+  border: 1px solid black;
+  background-color: black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.pnf-btn:hover {
+  background-color: rgb(243, 243, 243);
+  color: rgb(59, 56, 56);
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: rgb(255 13 13);
+}
+
+/* ========================================= */
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.cat-btn:hover {
+  background-color: #434343;
+  color: white;
+}
+/* ================
+====dashboard
+=================== */
+
+.dashboard {
+  margin-top: 100px !important;
+}
+.navbar-expand-lg .navbar-collapse {
+  background-color: cadetblue;
+  /* display: flex!important; */
+  flex-basis: auto;
+  border-radius: 20px;
+}
+
+.text-center{
+  font-family: fangsong;
+    text-align: center!important;
+}
+
+.dashboard-menu h4 {
+  background-color: #434343 !important;
+  color: white;
+  padding: 20px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    background-color: #df0d6f;
+    border-radius: 0px;
+  }
+  /* .navbar-expand-lg .navbar-collapse{
+    background-color: #df0d6f;
+  } */
+  .navbar-expand-lg .navbar-collapse {
+    background-color: cadetblue;
+    /* display: flex!important; */
+    flex-basis: auto;
+    /* border-radius: 20px; */
+}
+.navbar-expand-lg .navbar-collapse {
+  background-color: cadetblue;
+  /* display: flex!important; */
+  flex-basis: auto;
+  border-radius: 20px;
+}
+.card m-2{
+  width:8rem;
+}
+}
