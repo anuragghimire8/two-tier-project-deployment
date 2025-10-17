@@ -11,4 +11,4 @@ Leveraged Terraform to provision AWS EC2 instances automatically, managing infra
 
 Tech & Tools: GitHub Actions | Docker | Docker Compose | Terraform | AWS EC2 | Nginx | Git      
 
-<img src = "ecommerce/public/images" width="150" height="150" /> 
+<img src = "ecommerce/public/images/Screenshot (128).png" width="150" height="150" /> 
