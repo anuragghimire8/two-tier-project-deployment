@@ -1,6 +1,6 @@
 Automated DevOps Pipeline with GitHub Actions, Docker, and Terraform on AWS EC2!
 
-I recently built a full DevOps workflow to automate deployment and infrastructure management
+I  built a full DevOps workflow to automate deployment and infrastructure management
 Deployed the MERN STACK app on AWS EC2, with Nginx as a reverse proxy (for production-ready deployment
 
 Implemented a CI/CD pipeline using GitHub Actions to automatically build, test, and deploy applications on code pushes.
