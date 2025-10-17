@@ -10,3 +10,4 @@ Leveraged Terraform to provision AWS EC2 instances automatically, managing infra
 ).
 
 Tech & Tools: GitHub Actions | Docker | Docker Compose | Terraform | AWS EC2 | Nginx | Git      
+Screenshot (124).png
